@@ -99,7 +99,7 @@ document.getElementById("loginForm").onsubmit = async (e) => {
   if (txt.includes("success")) location.href = "index.php";
   else alert("Invalid credentials");
 };
-
+//nice login interface
 document.getElementById("registerForm").onsubmit = async (e) => {
   e.preventDefault();
   const res = await fetch("backend.php", {
